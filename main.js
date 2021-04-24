@@ -55,10 +55,10 @@ function bmibehine() { // makes value of calbmi function simpler for UI
 
 function inputerrhandels() { // checks if value of globale obj is standard and calcludble
     if (
-        global.height >= 0.5 &&
-        global.height <= 3 &&
-        global.mass >= 20 &&
-        global.mass <= 200) {
+        global.height >= 0.2 &&
+        global.height <= 4 &&
+        global.mass >= 10 &&
+        global.mass <= 500) {
         return true;
     }
 }

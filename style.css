@@ -104,5 +104,8 @@ button{
     .form{
        display: block;
     }
+    .cont{
+        width: 80%;
+    }
     
 }
